@@ -161,7 +161,7 @@ def iris_KNN_K_value_train():
       iris = load_iris()
       # 2、数据基本处理 -- 划分数据集
       x_train, x_test, y_train, y_test = train_test_split(iris.data, iris.target, random_state=None)
-      # 3、特征⼯程：标准化
+      # 3、特征⼯程：标准化  
       # 实例化⼀个转换器类
       transfer = StandardScaler()
       # 调⽤fit_transform
